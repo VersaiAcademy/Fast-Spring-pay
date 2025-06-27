@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .sizing5{
+        margin-top: 100px;
+    }
+       .disclaimer-header {
+
+            color: black;
+            padding: 5rem 0;
+            margin-bottom: 3rem;
+          
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .disclaimer-header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none" opacity="0.05"><path d="M0,0 L100,0 L100,100 L0,100 Z" fill="white"/></svg>');
+            background-size: cover;
+        }
+        
+        .disclaimer-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            background: white;
+        }
+        
+        .disclaimer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .disclaimer-card .card-header {
+            background: linear-gradient(to right, var(--Fast Spring Pay -dark), var(--Fast Spring Pay -primary));
+            color: white;
+            font-weight: 600;
+            border-bottom: none;
+            padding: 1.5rem;
+            position: relative;
+        }
+        
+        .disclaimer-card .card-header::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: var(--Fast Spring Pay -accent);
+        }
+        
+        .warning-item {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--Fast Spring Pay -accent);
+            padding-left: 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .warning-item:hover {
+            background-color: rgba(249, 168, 38, 0.05);
+            transform: translateX(5px);
+        }
+        
+        
+        .legal-highlight {
+            background-color: rgba(78, 84, 200, 0.1);
+            border-left: 4px solid var(--Fast Spring Pay -primary);
+            padding: 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }

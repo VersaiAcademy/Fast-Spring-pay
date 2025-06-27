@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sizing7{
+    margin-top: 100px;
+}
+
+
+.privacy-content {     
+            padding: 3rem;
+            margin-bottom: 3rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .privacy-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: calc(13px  + 0.5vw);
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            border-radius: 3px;
+        }
+        
+        .list-item {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+        
+        .list-item:hover {
+            background-color: rgba(78, 84, 200, 0.05);
+            transform: translateX(5px);
+            border-left: 3px solid var(--accent-color);
+        }
+        
+       
+
+
+         .privacy-content {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            padding: 3rem;
+            margin-bottom: 3rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .privacy-content:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            border-radius: 3px;
+        }
+        
+        .list-item {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+        
+        .list-item:hover {
+            background-color: rgba(78, 84, 200, 0.05);
+            transform: translateX(5px);
+            border-left: 3px solid var(--accent-color);
+        }
+        
+        .policy-section {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .policy-section:last-child {
+            border-bottom: none;
+        }
+        
+
+        .sizing3{
+            padding-top: 100px;
+        }
+
+          
+        .list-item {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+        
+        .list-item:hover {
+            background-color: rgba(78, 84, 200, 0.05);
+            transform: translateX(5px);
+            border-left: 3px solid var(--accent-color);
+        }
+        
+        .policy-section {
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .policy-section:last-child {
+            border-bottom: none;
+        }
+        
+        .contact-card {
+           
+            border-radius: 10px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary-color);
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-left: 4px solid var(--accent-color);
+        }
