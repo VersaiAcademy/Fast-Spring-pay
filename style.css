@@ -178,6 +178,12 @@
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             opacity: 0.1;
         }
+        .hero-image img {
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    padding: 5px; /* Optional for border effect */
+}
 
         .hero-content {
             display: flex;
@@ -222,6 +228,7 @@
         .hero-image img {
             max-width: 100%;
           height: 500px;
+          
         }
 
         /* Features Section */
