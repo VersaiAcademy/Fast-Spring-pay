@@ -63,6 +63,9 @@
             color: white;
             box-shadow: var(--shadow);
         }
+        .btn-primary:hover{
+            background: var(--primary);
+        }
 
         .btn-primary:hover {
             transform: translateY(-3px);
@@ -70,9 +73,9 @@
         }
 
         .btn-outline {
-            background: transparent;
+            background: var(--card-gradient);
             border: 2px solid var(--primary);
-            color: var(--primary);
+            color: white;
             margin-left: 15px;
         }
 
@@ -155,6 +158,13 @@
               padding: 10px calc(20px + 1vw);
               border-radius: 15px;
         }
+         .btn-login1:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-hover);
+             background: var(--card-gradient);
+            color: white;
+            
+        }
  
        
 
@@ -209,7 +219,7 @@
         .hero-text p {
             font-size: 1.2rem;
             margin-bottom: 30px;
-            color: rgb(177, 157, 157);
+            color: white;
              font-family: 'Inter', 'Roboto', sans-serif;
         }
 
@@ -523,14 +533,14 @@
         .btn99:hover {
             transform: translateY(-3px);
             box-shadow: var(--shadow-hover);
-            background-color: white;
-            color: black;
+             background: var(--card-gradient);
+            color: white;
         }
 
         .btn99{
-            background: transparent;
+            background: white;
             border: 2px solid var(--primary);
-            color: white;
+            color: var(--primary);
             margin-left: 15px;
         }
 
